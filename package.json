@@ -1,0 +1,21 @@
+{
+  "name": "learnthreejs",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && netlify deploy --prod --dir dist"
+  },
+  "devDependencies": {
+    "@types/three": "^0.158.3",
+    "eslint": "^8.54.0",
+    "eslint-config-standard": "^17.1.0",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.158.0"
+  }
+}
