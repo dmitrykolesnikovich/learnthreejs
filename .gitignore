@@ -56,7 +56,8 @@ xcuserdata
 *.xcscmblueprint
 IDEWorkspaceChecks.plist
 node_modules
-dist/
+!dist/
+!dist/index.html
 static/
 .env.local
 .env.*.local
